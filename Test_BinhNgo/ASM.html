@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoàng Hà Mobile_By NgoThanhBinh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    
+        <divc id="header">
+        <div class="row1">
+            <div class="row1text">
+                <a href="#">Bản Mobile</a>|
+                <a href="#">Giới Thiệu</a>|
+                <a href="#">Sản phẩm đã xem</a>|
+                <a href="#">Trung Tâm Bảo Hành</a>|
+                <a href="#">Hệ Thống 124 Siêu Thị</a>|
+                <a href="#">Tuyển Dụng</a>|
+                <a href="#">Tra cứu đơn hàng</a>|
+                <a href="#">Đăng nhập</a>|
+            </div>
+        </div>
+     <div class="heading">
+            <div class="container-heading">
+              <div class="logo">
+                <a href="#" title="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ"></a>
+                <img src="images/logo-text.png" alt="CÔNG TY CỔ PHẦN XÂY DỰNG VÀ ĐẦU TƯ THƯƠNG MẠI HOÀNG HÀ">
+              </div>
+              <div class="search-box">
+                <form method="get" action="/tim-kiem" onsubmit="return submitSearch(This);"
+                enctype="application/x-www-form-urlencoded">
+                    <div class="boder">
+                      <input type="text" placeholder="Hôm nay bạn cần tìm kiếm gì?" 
+                      autocomplete="off">
+                      <button type="submit" class="search"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                </div>
+                </form>
+              </div>
+              <div class="order-tools">
+                <div class="checkdonhang">
+                    <a id="btncheckorder" href="#"> <span class="icon"> 
+                      <i class="fa fa-truck" aria-hidden="true"></i></span>
+                    <span class="text">Kiểm Tra Đơn Hàng</span> 
+                </a>
+                </div>
+                <div class="giodo">
+                    <a href="#">
+                        <span class="icongiodo"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <nav style="z-index: 1000;">
+          <div class="container-menu">
+            <ul class="root">
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-mobile " aria-hidden="true"></i>
+                  <span class="textdienthoai">ĐIỆN THOẠI</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                  <span class="textdienthoai">ĐỒNG HỒ </span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-laptop " aria-hidden="true"></i>
+                  <span class="textdienthoai">LAPTOP</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-desktop " aria-hidden="true"></i>
+                  <span class="textdienthoai">MÀN HÌNH</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-television " aria-hidden="true"></i>
+                  <span class="textdienthoai">SMART TV</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-keyboard-o " aria-hidden="true"></i>
+                  <span class="textdienthoai">TABLE</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-headphones " aria-hidden="true"></i>
+                  <span class="textdienthoai">ÂM THANH</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-home " aria-hidden="true"></i>
+                  <span class="textdienthoai">SMART HOME</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-plug " aria-hidden="true"></i>
+                  <span class="textdienthoai">PHỤ KIỆN</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-gamepad " aria-hidden="true"></i>
+                  <span class="textdienthoai">ĐỒ CHƠI CÔNG NGHỆ</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-arrows " aria-hidden="true"></i>
+                  <span class="textdienthoai">MÁY TRÔI</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-wrench " aria-hidden="true"></i>
+                  <span class="textdienthoai">SỮA CHỮA</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-address-card-o " aria-hidden="true"></i>
+                  <span class="textdienthoai">SIM THẺ</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-newspaper-o " aria-hidden="true"></i>
+                  <span class="textdienthoai">TIN TỨC</span>
+                  </div>
+                </a>
+              </li>
+              <li class="dienthoaididong">
+                <a href="#">
+                  <div class="po">
+                    <i class="fa fa-bolt" aria-hidden="true"></i>
+                  <span class="textdienthoai">ƯU ĐÃI</span>
+                  </div>
+                </a>
+              </li>
+              
+             
+            </ul>
+          </div>
+        </nav>
+        
+    </div>
+  </div>
+  <article>
+   <div class="ảnh-tỉnh">
+    <img src="images/ảnhlogo.jpg" alt="">
+   </div>
+   <div class="banner1">
+    <img src="images/ip14-promax-tet-2023mobile.png" width="1200"  height="500px" alt="">
+   </div>
+    
+      <div class="row2">
+        <strong>
+          <div class="box1">Iphone 14ProMax Giảm Sốc</div>
+        <div class="box1">Xiaomi TV 2 Series</div>
+        <div class="box1">Z-Flod4, Z-Flip4 - Ưu đãi tết 2023</div>
+        <div class="box1">Máy Lọc Clair</div>
+        </strong>
+      </div>
+      <div class="banner2">
+        <div class="banner21"><img src="images/sanphamhot-a73.png" alt=""></div>
+        <div class="banner21"><img src="images/sanphamhot-apple.png" alt=""></div>
+        <div class="banner21"><img src="images/r4.png" alt=""></div>
+        <div class="banner21"><img src="images/paddd.png" width="300px" alt=""></div>
+        <!-- <img src="images/op-02.jpg" align="center" width="1200px" height="500px" alt=""> -->
+      </div>
+      <div class="qqq">
+        <div class="flashsaletext">F <i class="fa fa-bolt" aria-hidden="true"></i>
+          ASH SALE ONLINE</div>
+        <div class="boxtest "> 
+            <a href="#">
+              <strong>Đồng Hồ/ Phụ Kiện</strong>
+            </a>
+        </div>
+        <div class="boxtest ">
+          <a href="#"><strong>Laptop/Màn Hình/TV</strong></a>
+        </div>
+        <div class="boxtest">
+          <a href="#">
+            <div class="b3">
+              <strong>Điện Thoai/Table</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- <div class="flashsale">
+        <h3>F <i class="fa fa-bolt" aria-hidden="true"></i>
+          ASH SALE ONLINE</h3>
+          <div class="blockfs">
+              <a href="#"><strong>Điện Thoai/Table</strong></a>
+              <a href="#"><strong>Đồng Hồ/Phụ Kiện</strong></a>
+          </div>
+       </div> -->
+
+       <!-- <div class="smartphone">
+           <div class="phone"> 
+            <div class="sp1">
+              <div class="boxphone" >
+                <div class="boxphone1">
+                  <img src="images/phone1.png" alt="">
+                  <div class="tenphone">
+                    Xiaomi Redmi 10C 4Gb/128GB - Chính hãng
+                  </div>
+                  <div class="giaphone">
+                   <strong>3,190,000 <sup><u>đ</u></sup> <del><small>3,890,000 <sup><u>đ</u></sup></strong> </small></del>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+              
+              <div class="sp2">
+                <div class="boxphone" >
+                  <div class="boxphone2">
+                    <img src="images/phone2.png" alt="">
+                    <div class="tenphone">
+                      Redmi Note 115 8GB/128GB - Chính hãng
+                    </div>
+                    <div class="giaphone">
+                     <strong>5,750,000 <sup><u>đ</u></sup> <del><small>6,690,000 <sup><u>đ</u></sup></strong> </small></del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+             
+              <div class="sp3">
+                <div class="boxphone" >
+                  <div class="boxphone3">
+                    <img src="images/phone3.png" alt="">
+                    <div class="tenphone">
+                      Reno8 Z 5G - Chính hãng
+                    </div>
+                    <div class="giaphone">
+                     <strong>8,890,000 <sup><u>đ</u></sup> <del><small>9,790,000 <sup><u>đ</u></sup></strong> </small></del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="sp4">
+                <div class="boxphone" >
+                  <div class="boxphone4">
+                    <img src="images/phone4.png" alt="">
+                    <div class="tenphone">
+                      SamSung Galaxy ZFold4 - 256GB - Chính hãng
+                    </div>
+                    <div class="giaphone">
+                     <strong>3,190,000 <sup><u>đ</u></sup> <del><small>3,890,000 <sup><u>đ</u></sup></strong> </small></del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+    
+     
+        <div class="apple">
+          <div class="apple-authorised-reseller">
+            <span><a href="#">APPLE AUTHORISED RESELLER </a></span>
+          </div> -->
+          
+    </article>
+    <!-- <div class="qqq">
+      Noidung
+      <div class="boxtest">
+        noidung
+      </div>
+      <div class="boxtest">
+        noi dung
+      </div>
+    </div> -->
+    <div class="smartphone">
+      <div class="phone">
+        <div class="phone1">
+          <div class="boxphone1">
+            <img class="imgphone" src="images/phone1.png" alt="">
+            <div class="tenphone">
+              Xiaomi Redmi 10C 4Gb/128GB - Chính hãng
+            </div>
+            <div class="giaphone">
+             <strong>3,190,000 <sup><u>đ</u></sup> <del><small>3,890,000 <sup><u>đ</u></sup></strong> </small></del>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="phone">
+        <div class="boxphone" >
+          <div class="boxphone2">
+            <img class="imgphone" src="images/phone2.png" alt="">
+            <div class="tenphone">
+              Redmi Note 115 8GB/128GB - Chính hãng
+            </div>
+            <div class="giaphone">
+             <strong>5,750,000 <sup><u>đ</u></sup> <del><small>6,690,000 <sup><u>đ</u></sup></strong> </small></del>
+            </div>
+          </div>
+        </div>
+     </div>
+
+      <div class="phone">
+        <div class="boxphone3">
+          <img class="imgphone" src="images/phone3.png" alt="">
+          <div class="tenphone">
+            Reno8 Z 5G - Chính hãng
+          </div>
+          <div class="giaphone">
+           <strong>8,890,000 <sup><u>đ</u></sup> <del><small>9,790,000 <sup><u>đ</u></sup></strong> </small></del>
+          </div>
+        </div>
+      </div>
+
+      <div class="phone">
+        <div class="boxphone4">
+          <img class="imgphone" src="images/phone4.png" alt="">
+          <div class="tenphone">
+            SamSung GalaxyZFold4-256GB - Chính hãng
+          </div>
+          <div class="giaphone">
+           <strong>3,190,000 <sup><u>đ</u></sup> <del><small>3,890,000 <sup><u>đ</u></sup></strong> </small></del>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <aside>
+      <div class="cothebansethich">
+        <div class="textcothebansethich">
+          <a href="#"><strong>CÓ THỂ BẠN SẼ THÍCH</strong></a>
+        </div>
+      </div>
+
+      <div class="other">
+        <div class="other1">
+          <div class="other2">
+              <img class="imgphone" src="images/iphone6.png" alt="">
+              <div class="tenphone">
+                Apple iPhone 13 - Chính hãng VN/A
+              </div>
+              <div class="giaphone">
+               <strong>17,590,000 <u>đ</u>
+              </div>
+          </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/watch.png" alt="">
+                <div class="tenphone">
+                  Huewei Watch GT3 SE - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>3,350,000 <u>đ</u> <del><small>4,490,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/samsung.png" alt="">
+                <div class="tenphone">
+                  Samsung Galaxy Z Flip4 - 128GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>17,790,000 <sup><u>đ</u></sup> <del><small>23,990,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/phone7.png" alt="">
+                <div class="tenphone">
+                  Samsung Galaxy ZFlod4 - 256GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>34,290,000 <u>đ</u> <del><small>40,390,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+          
+            <div class="other2">
+                <img class="imgphone" src="images/phone8.png" alt="">
+                <div class="tenphone">
+                  Nokia G11 Plus 3GB/32GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>2,390,000 <sup><u>đ</u></sup> <del><small>3,390,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+    </aside>
+    <nav>
+      <div class="apple-authorised-reseller">
+        <div class="textapple-authorised-reseller">
+          <a href="#"><strong>APPLE AUTHORISED RESELLER</strong></a>
+        </div>
+      </div>
+
+      <div class="other">
+        <div class="other1">
+          <div class="other2">
+              <img class="imgphone" src="images/iphone6.png" alt="">
+              <div class="tenphone">
+                Apple iPhone 13 - Chính hãng VN/A
+              </div>
+              <div class="giaphone">
+               <strong>17,590,000 <u>đ</u>
+              </div>
+          </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/watch.png" alt="">
+                <div class="tenphone">
+                  Huewei Watch GT3 SE - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>3,350,000 <u>đ</u> <del><small>4,490,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/samsung.png" alt="">
+                <div class="tenphone">
+                  Samsung Galaxy Z Flip4 - 128GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>17,790,000 <sup><u>đ</u></sup> <del><small>23,990,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/phone7.png" alt="">
+                <div class="tenphone">
+                  Samsung Galaxy ZFlod4 - 256GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>34,290,000 <u>đ</u> <del><small>40,390,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+          
+            <div class="other2">
+                <img class="imgphone" src="images/phone8.png" alt="">
+                <div class="tenphone">
+                  Nokia G11 Plus 3GB/32GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>2,390,000 <sup><u>đ</u></sup> <del><small>3,390,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="other">
+        <div class="other1">
+          <div class="other2">
+              <img class="imgphone" src="images/iphone6.png" alt="">
+              <div class="tenphone">
+                Apple iPhone 13 - Chính hãng VN/A
+              </div>
+              <div class="giaphone">
+               <strong>17,590,000 <u>đ</u>
+              </div>
+          </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/watch.png" alt="">
+                <div class="tenphone">
+                  Huewei Watch GT3 SE - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>3,350,000 <u>đ</u> <del><small>4,490,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/samsung.png" alt="">
+                <div class="tenphone">
+                  Samsung Galaxy Z Flip4 - 128GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>17,790,000 <sup><u>đ</u></sup> <del><small>23,990,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+
+            <div class="other2">
+                <img class="imgphone" src="images/phone7.png" alt="">
+                <div class="tenphone">
+                  Samsung Galaxy ZFlod4 - 256GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>34,290,000 <u>đ</u> <del><small>40,390,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+          
+            <div class="other2">
+                <img class="imgphone" src="images/phone8.png" alt="">
+                <div class="tenphone">
+                  Nokia G11 Plus 3GB/32GB - Chính hãng
+                </div>
+                <div class="giaphone">
+                <strong>2,390,000 <sup><u>đ</u></sup> <del><small>3,390,000 <sup><u>đ</u></sup></strong> </small></del>
+                </div>
+            </div>
+        </div>
+      </div>
+    </nav>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
